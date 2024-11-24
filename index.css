@@ -18,4 +18,16 @@ img {
     width: 150px;
     margin: 0 auto;
 }
+
+input {
+    color: rgb(67, 32, 0);
+    background-color: rgb(220, 225, 235);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
 }
