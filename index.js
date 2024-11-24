@@ -18,8 +18,12 @@ const database = getDatabase(app)
 
 // Referencing the database:
 const shoppingListInDB = ref(database, "shoppingList")
+
+//input field References
+
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
+const shoppingListEl = document.getElementById("shopping-list")
 
 addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
