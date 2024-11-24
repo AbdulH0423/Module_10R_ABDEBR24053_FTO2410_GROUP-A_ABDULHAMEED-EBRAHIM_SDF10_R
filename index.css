@@ -42,4 +42,9 @@ button {
     font-family: 'Rubik', sans-serif;
 }
 
+button:hover {
+    background-color: rgb(67, 32, 0);
+    cursor: pointer;
+}
+
 }
