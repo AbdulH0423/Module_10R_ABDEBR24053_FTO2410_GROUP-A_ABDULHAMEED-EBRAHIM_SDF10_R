@@ -12,6 +12,12 @@ import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com
 const appSettings = {
     databaseURL: "https://realtime-database-df319-default-rtdb.europe-west1.firebasedatabase.app/"
 }
+
+const app = initializeApp(appSettings)
+const database = getDatabase(app)
+
+// Referencing the database:
+const shoppingListInDB = ref(database, "shoppingList")
 const inputFieldEl = document.getElementById("input-field")
 const addButtonEl = document.getElementById("add-button")
 
