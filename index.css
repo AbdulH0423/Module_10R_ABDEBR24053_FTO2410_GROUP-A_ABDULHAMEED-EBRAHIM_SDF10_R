@@ -1,4 +1,9 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(238, 240, 244);
+    color: rgb(67, 32, 0);
+    user-select: none;
+}
 }
