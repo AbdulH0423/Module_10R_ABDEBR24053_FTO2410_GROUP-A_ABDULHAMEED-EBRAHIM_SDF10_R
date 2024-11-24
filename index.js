@@ -29,4 +29,19 @@ addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     
     console.log(inputValue)
-})
+})function appendItemToShoppingListEl(item) {
+    let itemID = item[0]
+    let itemValue = item[1]
+    
+    let newEl = document.createElement("li")
+    
+    newEl.textContent = itemValue
+    
+    newEl.addEventListener("click", function() {
+        let exactLocationOfItemInDB = ref(database, `shoppingList/${itemID}`)
+        
+        remove(exactLocationOfItemInDB)
+    })
+    
+    shoppingListEl.append(newEl)
+}
