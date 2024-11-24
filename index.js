@@ -30,6 +30,15 @@ addButtonEl.addEventListener("click", function() {
     
     console.log(inputValue)
 })function appendItemToShoppingListEl(item) {
+function clearShoppingListEl() {
+    shoppingListEl.innerHTML = ""
+}
+
+function clearInputFieldEl() {
+    inputFieldEl.value = ""
+}
+
+function appendItemToShoppingListEl(item) {
     let itemID = item[0]
     let itemValue = item[1]
     
