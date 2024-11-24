@@ -30,4 +30,16 @@ input {
     font-family: 'Rubik', sans-serif;
     margin: 10px 0;
 }
+
+button {
+    color: rgb(253, 253, 253);
+    background-color: rgb(172, 72, 90);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
 }
